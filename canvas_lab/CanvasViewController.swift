@@ -93,11 +93,17 @@ class CanvasViewController: UIViewController {
             newlyCreatedFace = sender.view as! UIImageView // gets the face we panned on
             newlyCreatedFaceOriginalCenter = newlyCreatedFace.center
             
+            UIView.animate(withDuration: 0.2, animations: {
+                self.newlyCreatedFace.transform = self.newlyCreatedFace.transform.scaledBy(x: 1.5, y: 1.5)
+            }, completion: nil)
+            
         } else if sender.state == .changed {
             newlyCreatedFace.center = CGPoint(x: newlyCreatedFaceOriginalCenter.x + translation.x, y: newlyCreatedFaceOriginalCenter.y + translation.y)
             
         } else if sender.state == .ended {
-            
+            UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 0.4, initialSpringVelocity: 1, options: [], animations:  {
+                self.newlyCreatedFace.transform = self.newlyCreatedFace.transform.scaledBy(x: 0.75, y: 0.75)
+            }, completion: nil)
         }
     }
 
