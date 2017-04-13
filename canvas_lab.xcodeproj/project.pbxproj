@@ -14,6 +14,7 @@
 		9DF5ED751E9F0EDA00597538 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF5ED731E9F0EDA00597538 /* LaunchScreen.storyboard */; };
 		9DF5ED801E9F0EDB00597538 /* canvas_labTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF5ED7F1E9F0EDB00597538 /* canvas_labTests.swift */; };
 		9DF5ED8B1E9F0EDB00597538 /* canvas_labUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF5ED8A1E9F0EDB00597538 /* canvas_labUITests.swift */; };
+		9DF5ED991E9F10DC00597538 /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF5ED981E9F10DC00597538 /* CanvasViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9DF5ED861E9F0EDB00597538 /* canvas_labUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = canvas_labUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DF5ED8A1E9F0EDB00597538 /* canvas_labUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = canvas_labUITests.swift; sourceTree = "<group>"; };
 		9DF5ED8C1E9F0EDB00597538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DF5ED981E9F10DC00597538 /* CanvasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				9DF5ED711E9F0EDA00597538 /* Assets.xcassets */,
 				9DF5ED731E9F0EDA00597538 /* LaunchScreen.storyboard */,
 				9DF5ED761E9F0EDA00597538 /* Info.plist */,
+				9DF5ED981E9F10DC00597538 /* CanvasViewController.swift */,
 			);
 			path = canvas_lab;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DF5ED6D1E9F0EDA00597538 /* ViewController.swift in Sources */,
+				9DF5ED991E9F10DC00597538 /* CanvasViewController.swift in Sources */,
 				9DF5ED6B1E9F0EDA00597538 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
